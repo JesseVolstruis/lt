@@ -36,7 +36,7 @@ python3 -m unittest discover
 In `lt/getbest_code` running this line in command line will rin the program:
 
 ```
-python3 -m getbest.py bestDat0.csv 
+python3 getbest.py bestDat0.csv 
 ```
 
 with `bestDat0.csv` being in the same directory as getbest.py.
