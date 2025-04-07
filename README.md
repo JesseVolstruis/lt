@@ -1,4 +1,4 @@
-# Lab test getDest program
+# Lab test getBest program
 By **nixkj** and **morisscofield**
 Modified by **Jesse Schroder**-**2597626**
 ## Description
