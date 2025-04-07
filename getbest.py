@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 
 import sys
@@ -8,7 +9,7 @@ def getCols(f):
     i=0
     for head in headings:
         if head == "Student Number": num_col=i
-        elif head == "Mark" : mark_col =i
+        elif head == "Mark" : mark_col = i
         i+=1
     return (num_col, mark_col)
 
@@ -28,3 +29,4 @@ f = open(sys.argv[1])
 num_col, mark_col = getCols(f)
 best_idx, best = findTop(f,num_col,mark_col)
 print("The top student was student %s with %d"%(best_idx,best))
+
