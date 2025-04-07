@@ -2,7 +2,7 @@
 import sys
 import os
 import unittest
-from io import StringIO  # using this to emulate the test data with a string
+from io import StringIO
 from getbest_code import getbest
 
 class TestClass(unittest.TestCase):
@@ -13,8 +13,7 @@ ELEN3020,160001,72,OK
 ELEN3020,167381,90,Check
 ELEN3020,143211,83,-
 ELEN3020,17171,48,Redo
-ELEN3020,191919,73,-""") #bestDat0.csv as string used with String.IO to parse it to getCols 
-
+ELEN3020,191919,73,-""") #bestDat0.csv as string used with String.IO to parse it to getCols  
         col_num, mark_num = getbest.getCols(f)
         self.assertEqual(col_num, 1)
         self.assertEqual(mark_num, 2)
