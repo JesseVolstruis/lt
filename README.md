@@ -1,7 +1,7 @@
-#Lab test getDest program
+# Lab test getDest program
 By **nixkj** and **morisscofield**
 Modified by **Jesse Schroder**-**2597626**
-##Description
+## Description
 getbest.py is a program that takes in a file containing student's student numbers, marks, and comments and finds the student with the highest mark and outputs their student number and mark
 
 An example of the contents of the file is such:
@@ -15,7 +15,7 @@ ELEN3020,191919,73,-**
 
 You are able to add new entries in the data with this format
 
-##Tests
+## Tests
 
 In `lt/test` is the tests and the input file.
 
